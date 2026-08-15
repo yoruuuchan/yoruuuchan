@@ -2,69 +2,68 @@
 
 # YORU
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=800&color=5F86FF&center=true&vCenter=true&width=800&lines=AI+application+builder;Creator+tools+%C3%97+MCP+%C3%97+self-hosted+systems;Turning+%22can+AI+do+this%3F%22+into+working+software)](https://git.io/typing-svg)
+[English](README.md) · [中文](README.zh-CN.md)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=800&color=5F86FF&center=true&vCenter=true&width=800&lines=AI+application+builder;Agent+tools+%C3%97+MCP+%C3%97+creator+systems;Turning+%22can+AI+do+this%3F%22+into+working+software)](https://git.io/typing-svg)
 
 **product × engineering × visual creation × AI**
 
 ![AI Applications](https://img.shields.io/badge/AI_APPLICATIONS-5F86FF?style=for-the-badge)
-![Creator Tools](https://img.shields.io/badge/CREATOR_TOOLS-5EEAD4?style=for-the-badge&labelColor=111827)
-![MCP & Agents](https://img.shields.io/badge/MCP_%26_AGENTS-897CD3?style=for-the-badge)
-![Self Hosted](https://img.shields.io/badge/SELF_HOSTED-52B6D9?style=for-the-badge)
+![Agent Infrastructure](https://img.shields.io/badge/AGENT_INFRASTRUCTURE-5EEAD4?style=for-the-badge&labelColor=111827)
+![MCP](https://img.shields.io/badge/MCP-897CD3?style=for-the-badge)
+![Creator Tools](https://img.shields.io/badge/CREATOR_TOOLS-52B6D9?style=for-the-badge)
 ![Visual Systems](https://img.shields.io/badge/VISUAL_SYSTEMS-FF6B78?style=for-the-badge)
 
 </div>
 
 ---
 
-## Selected builds
+I build **AI applications, agent infrastructure, and creator tools**. Most projects start with a practical irritation or a weird “can this actually exist?” question, then get pushed until they work in a real environment instead of stopping at a demo.
 
-### [Yoru Studio](https://github.com/yoruuuchan/yoru-studio-oss)
+I am especially interested in the seams between **product, engineering, visual communication, desktop software, MCP, and self-hosted systems**.
 
-![Yoru Studio](https://img.shields.io/badge/YORU_STUDIO-5F86FF?style=for-the-badge&logo=github&logoColor=white)
+## Projects
 
-A self-hosted execution studio for solo creators — ideas, storyboards, field work, retrospectives, backups, and MCP-connected AI agents.
+### AI applications
 
-`FastAPI` · `React` · `SQLite` · `Docker` · `MCP`
+**[Yoru Studio](https://github.com/yoruuuchan/yoru-studio-oss)** — A self-hosted execution studio for a single creator: inbox, projects, storyboards, field work, retrospectives, backups, and an append-only MCP channel for AI agents.  
+`Python` · `FastAPI` · `React` · `SQLite` · `Docker` · `MCP`
 
----
+**[Akari Pulse](https://github.com/yoruuuchan/akari-pulse)** — A self-hosted bridge that moves health data from the owner's vivo phone and watch into an owner-controlled database and exposes it to AI assistants over MCP.  
+`Android` · `BlueOS` · `Cloudflare` · `Health Data` · `MCP`
 
-### [Akari Pulse](https://github.com/yoruuuchan/akari-pulse)
-
-![Akari Pulse](https://img.shields.io/badge/AKARI_PULSE-5EEAD4?style=for-the-badge&logo=github&logoColor=111827)
-
-Getting real health data from a vivo WATCH GT / BlueOS watch into a self-hosted backend and MCP.
-
-`BlueOS` · `Cloudflare Workers` · `Health Data` · `MCP`
-
----
-
-### [LyricLens](https://github.com/yoruuuchan/LyricLens)
-
-![LyricLens](https://img.shields.io/badge/LYRICLENS-897CD3?style=for-the-badge&logo=github&logoColor=white)
-
-An AI lyric-learning companion for NetEase Cloud Music and desktop.
-
+**[LyricLens](https://github.com/yoruuuchan/LyricLens)** — A multi-host lyric-learning system spanning a BetterNCM plugin, an independent Windows desktop app, and a mobile Review PWA, turning live lyrics into AI-assisted language-learning cards.  
 `Tauri` · `Rust` · `JavaScript` · `LLM`
 
----
-
-### [is-ai-down](https://github.com/yoruuuchan/is-ai-down)
-
-![is-ai-down](https://img.shields.io/badge/IS_AI_DOWN-52B6D9?style=for-the-badge&logo=github&logoColor=white)
-
-A tiny public status aggregation dashboard for AI services.
-
+**[is-ai-down](https://github.com/yoruuuchan/is-ai-down)** — A small public status aggregation dashboard for AI services.  
 `TypeScript` · `Cloudflare`
 
+### AI infrastructure & integrations
+
+**[chatgpt-mcp-connect](https://github.com/yoruuuchan/chatgpt-mcp-connect)** — An Agent Skill that gives Codex and Claude Code a stable engineering path for connecting custom MCP servers to ChatGPT: Remote MCP, OAuth 2.1, HTTPS exposure, and real tool-call verification.  
+`Agent Skill` · `MCP` · `OAuth 2.1` · `Cloudflare`
+
+**[Claude Desktop Kill-Switch](https://github.com/yoruuuchan/claude-desktop-killswitch)** — A fail-closed Windows firewall guard designed to stop Claude from falling back to direct physical-interface Internet access when the proxy or TUN path disappears, with self-checks and explicit verification.  
+`PowerShell` · `Windows Firewall` · `MSIX` · `Networking`
+
+### Creative systems & Agent Skills
+
+**[Create Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — An end-to-end Agent Skill that takes an idea or visual reference through style lock, storyboard, AI references, Blender production, recoverable rendering, Resolve editing, and final media validation.  
+`Agent Skill` · `Blender` · `DaVinci Resolve` · `Video Pipeline`
+
+**[AI Application Showcase Video](https://github.com/yoruuuchan/ai-application-showcase-video)** — An Agent Skill for turning scattered AI project materials into a fact-grounded public-facing video package: fact sheet, questions, 60-second script, storyboard, shooting plan, post brief, copy, and review record.  
+`Agent Skill` · `Content Workflow` · `Validation`
+
+**[Visual Skill Library](https://github.com/yoruuuchan/visual-skill-library)** — A curated personal library of visually distinctive AI skills, workflows, and design systems, with source, license, and fidelity notes kept alongside the collection.  
+`Visual AI` · `Editorial` · `Data Visualization` · `Design Systems`
+
 ---
 
-## Lab
+## How I like to build
 
-[![Visual Skill Library](https://img.shields.io/badge/VISUAL_SKILL_LIBRARY-FF6B78?style=for-the-badge)](https://github.com/yoruuuchan/visual-skill-library)
-
-Visual AI workflows, image-generation skills, editorial systems, experiments, reverse-engineering notes, and other things collected because they looked interesting enough to try.
-
-> Tiny tools, strange integrations, and things built because I wondered whether they could exist.
+- **Real-environment verification over demo success.** A passing test is a prerequisite, not the finish line.
+- **Explicit failures over silent fallback.** If something is broken, the system should say where and why.
+- **Owner-controlled infrastructure when it matters.** Self-hosting, local-first design, and clear data boundaries are useful when they make the system easier to understand and trust.
 
 ---
 
@@ -89,6 +88,6 @@ Visual AI workflows, image-generation skills, editorial systems, experiments, re
 
 ### Build weird things. Make them real.
 
-`AI applications` · `creator tools` · `agents` · `self-hosted systems` · `visual experiments`
+`AI applications` · `agent infrastructure` · `creator systems` · `self-hosted software` · `visual experiments`
 
 </div>
