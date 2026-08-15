@@ -57,6 +57,14 @@ I am especially interested in the seams between **product, engineering, visual c
 **[Visual Skill Library](https://github.com/yoruuuchan/visual-skill-library)** — A curated personal library of visually distinctive AI skills, workflows, and design systems, with source, license, and fidelity notes kept alongside the collection.  
 `Visual AI` · `Editorial` · `Data Visualization` · `Design Systems`
 
+## Open-source contributions
+
+Fixes sent upstream to tools I use every day.
+
+- **[OpenCLI](https://github.com/jackwener/OpenCLI)** · turn any website into a CLI for AI agents — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) Codex adapter: prefer the main renderer over the avatar-overlay CDP target and track the latest assistant message, with regression tests · *open*
+- **[Operit](https://github.com/AAswordman/Operit)** · AI agent app for Android — [#974](https://github.com/AAswordman/Operit/pull/974) Fix a fling crash in the code editor on HONOR ROMs (`OverScroller` was stepped off the main thread and hit a `Choreographer` call that requires a Looper) · *merged*
+- **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Agent Skill for Kimi Slides — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) Auto-start a debug Chrome on Windows so exports still work when agent-browser cannot launch one · *merged* · [#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) Fix a `FileNotFoundError` race when Chrome renames a download mid-scan · *merged*
+
 ---
 
 ## How I like to build
@@ -81,6 +89,13 @@ I am especially interested in the seams between **product, engineering, visual c
   <img src="https://img.shields.io/badge/SQLite-74A7D8?style=flat-square&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/MCP-9898DC?style=flat-square" />
 </p>
+
+---
+
+## Contact
+
+📮 [1587761204@qq.com](mailto:1587761204@qq.com)  
+Happy to talk about AI products, agent tooling, creator workflows — or anything on this page.
 
 ---
 

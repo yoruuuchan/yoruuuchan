@@ -57,6 +57,14 @@
 **[Visual Skill Library](https://github.com/yoruuuchan/visual-skill-library)** — 我自己的视觉 AI Skill、工作流与设计系统收藏库，同时保留来源、License 和 source-fidelity 等整理信息。  
 `Visual AI` · `Editorial` · `Data Visualization` · `Design Systems`
 
+## 开源贡献
+
+给自己每天在用的工具，往上游提的修复。
+
+- **[OpenCLI](https://github.com/jackwener/OpenCLI)** · 把任意网站变成 AI Agent 可用的 CLI — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) Codex 适配器：优先选择主渲染进程而不是 avatar-overlay 的 CDP target，并改为跟踪最新一条 assistant 消息，附回归测试 · *审核中*
+- **[Operit](https://github.com/AAswordman/Operit)** · Android 上的 AI Agent 应用 — [#974](https://github.com/AAswordman/Operit/pull/974) 修复代码编辑器在 HONOR ROM 上快速滑动即崩溃的问题（`OverScroller` 在非主线程步进，撞上了要求 Looper 的 `Choreographer` 调用）· *已合并*
+- **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Kimi Slides 的 Agent Skill — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) Windows 上自动拉起调试用 Chrome，agent-browser 起不来浏览器时导出仍能跑通 · *已合并* · [#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) 修复 Chrome 在扫描途中重命名下载文件导致的 `FileNotFoundError` 竞态 · *已合并*
+
 ---
 
 ## 我偏好的工程方式
@@ -81,6 +89,13 @@
   <img src="https://img.shields.io/badge/SQLite-74A7D8?style=flat-square&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/MCP-9898DC?style=flat-square" />
 </p>
+
+---
+
+## 联系
+
+📮 [1587761204@qq.com](mailto:1587761204@qq.com)  
+欢迎聊 AI 产品、Agent 工具、创作者工作流，或者这一页上的任何东西。
 
 ---
 
