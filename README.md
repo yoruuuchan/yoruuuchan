@@ -61,9 +61,7 @@ Fixes sent upstream to tools I use every day.
 
 ## How I work
 
-- **I check on real hardware after the tests pass.** Akari Pulse's README lists the exact phone model, watch firmware and verification date; the Kill-Switch verification script won't report a result without an A/B baseline. I've been burned by "works in the demo, dies on the machine" enough times.
-- **When something breaks, it should say so out loud.** The Kill-Switch is fail-closed by design: lose the proxy and Claude drops, rather than quietly finding another route. I'd rather read one clear error than run a system that degrades silently and still shows green.
-- **Data I can keep, I keep.** Health data, creative records and notebooks live on my own machine or my own VPS, so when something goes wrong I know where to look, and I know who can see it.
+A few habits. After the tests pass I go and look on real hardware, which is why Akari Pulse's README lists the exact phone model, watch firmware and verification date, and the Kill-Switch verification script won't give a verdict without an A/B baseline. I like fail-closed designs; one clear error is far easier to deal with than a system that quietly degrades and still shows green. Data I can keep myself (health, creative records, notebooks) lives on my own machine or my own VPS, so when something goes wrong I know where to look and who can see it.
 
 ---
 
@@ -86,7 +84,7 @@ Fixes sent upstream to tools I use every day.
 
 ## Contact
 
-📮 [1587761204@qq.com](mailto:1587761204@qq.com)  
+📮 [yoruandakari@duck.com](mailto:yoruandakari@duck.com) · [1587761204@qq.com](mailto:1587761204@qq.com)  
 Happy to talk about AI products, agent tooling, creator workflows — or anything on this page.
 
 ---
