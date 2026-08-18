@@ -4,24 +4,26 @@
 
 [English](README.md) · [中文](README.zh-CN.md)
 
-*从视觉这边过来，现在做 AI 应用和创作者工具。*
+*从视觉这边出发，往 AI 应用、Agent 基础设施和创作者系统里长。*
 
 </div>
 
 ---
 
-我做的东西大多是先给自己用的，起点通常很小：手表数据出不来、代理一挂 Claude 就直连、想边听歌边把歌词变成学习卡片。然后一路做到它在真实环境里站得住。
+我做的东西大多从自己真的遇到的问题开始：手表数据出不来、代理一挂 Claude 就直连、想边听歌边把歌词变成学习卡片。然后一路往下做，直到它不只在 Demo 里好看，而是真的能在日常环境里站得住。
 
-我的底子在视觉那边：摄影、电影机、穿越机、达芬奇，也做过半年自媒体。所以我对「一个东西做出来了，别人能不能看懂、想不想用」这件事很在意，可能比对技术选型更在意。这一页上的大部分东西是我和 AI 一起做的，Yoru Studio 的署名就写着「我们三个」。
+我的底子在视觉这边：摄影、电影机、穿越机、达芬奇，也做过自己的账号。现在反复出现的一条主线，是把 AI Agent 接进我身边真实存在的系统——本地应用、手机、手表、Windows 机器、云端入口、创作工具——再把最后一公里磨到我自己愿意长期用。
+
+这一页上的大部分东西都和 AI Agent 一起完成。真正让我在意的，是生成之后的部分：决定什么东西值得存在、理解系统、设约束、处理难看的边角问题，以及确认它离开编辑器以后仍然成立。
 
 ## 项目
 
-### 日常在用的应用
+### 日常真的在用
 
 **[Yoru Studio](https://github.com/yoruuuchan/yoru-studio-oss)** — 我自己的内容项目从灵感、分镜、外拍到复盘，散在太多个 App 里，于是做了一个装在自己机器上的执行台，只服务一个人：没有多租户，没有团队席位。它跑在 5 美元一个月的 VPS 上，外拍断网时编辑先在本地排队；AI Agent 通过 MCP 接进来，能读、能追加，不能改历史。  
 `Python` · `FastAPI` · `React` · `SQLite` · `Docker` · `MCP`
 
-**[Akari Pulse](https://github.com/yoruuuchan/akari-pulse)** — 我想让 AI 助手真的看见我昨晚睡得怎么样，而不是每天早上等我打字告诉它。vivo 手表的数据走官方通道出不来，我就自己挖：手表端 RPK、手机端 APK、自己的数据库，再通过 MCP 交给 AI。全程在 vivo X200 Pro 和 WATCH GT 上真机验证，中间没有任何云服务。  
+**[Akari Pulse](https://github.com/yoruuuchan/akari-pulse)** — 我想让 AI 助手真的看见我昨晚睡得怎么样，而不是每天早上等我打字告诉它。vivo 手表的数据走官方通道出不来，我就自己挖：手表端 RPK、手机端 APK、自己的数据库，再通过 MCP 交给 AI。已经在 vivo X200 Pro 和 WATCH GT 上做过完整真机验证。  
 `Android` · `BlueOS` · `Cloudflare` · `Health Data` · `MCP`
 
 **[LyricLens](https://github.com/yoruuuchan/LyricLens)** — 听歌的时候总想顺手把歌词里的词记下来。LyricLens 就是这个念头做成了东西：网易云里的 BetterNCM 插件读到当前歌词，交给模型生成学习卡片，跟着歌词滚动显示。后来又长出了[不依赖任何播放器的 Windows 桌面端](https://github.com/yoruuuchan/lyriclens-desktop)和手机上复习用的 PWA，三端共用一本笔记。  
@@ -51,17 +53,21 @@
 
 ## 开源贡献
 
-给自己每天在用的工具，往上游提的修复。
+给自己真的在用的工具往上游送修复和功能。
 
-- **[OpenCLI](https://github.com/jackwener/OpenCLI)** · 把任意网站变成 AI Agent 可用的 CLI — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) Codex 适配器：优先选择主渲染进程而不是 avatar-overlay 的 CDP target，并改为跟踪最新一条 assistant 消息，附回归测试 · *审核中*
-- **[Operit](https://github.com/AAswordman/Operit)** · Android 上的 AI Agent 应用 — [#974](https://github.com/AAswordman/Operit/pull/974) 修复代码编辑器在 HONOR ROM 上快速滑动即崩溃的问题（`OverScroller` 在非主线程步进，撞上了要求 Looper 的 `Choreographer` 调用）· *已合并*
-- **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Kimi Slides 的 Agent Skill — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) Windows 上自动拉起调试用 Chrome，agent-browser 起不来浏览器时导出仍能跑通 · *已合并* · [#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) 修复 Chrome 在扫描途中重命名下载文件导致的 `FileNotFoundError` 竞态 · *已合并*
+- **[Operit](https://github.com/AAswordman/Operit)** · Android AI Agent 应用 — 最近的改动横跨 Android / Compose 状态时序、模型供应商接入、Tool API 和崩溃处理：[ #974](https://github.com/AAswordman/Operit/pull/974)、[#990](https://github.com/AAswordman/Operit/pull/990)、[#991](https://github.com/AAswordman/Operit/pull/991)、[#993](https://github.com/AAswordman/Operit/pull/993) 已合并；[#987](https://github.com/AAswordman/Operit/pull/987) 和 [#992](https://github.com/AAswordman/Operit/pull/992) 审核中。
+- **[OpenCLI](https://github.com/jackwener/OpenCLI)** · 把网站和桌面应用变成 AI Agent 可用的 CLI — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) 适配当前 Codex Desktop 的 CDP target 布局和虚拟化对话 DOM · *审核中*
+- **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Kimi Slides 的 Agent Skill — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) 在 Windows 上自动拉起调试浏览器，解决 agent-browser 无法启动 Chrome 时的导出问题；[#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) 修复 Chrome 下载文件重命名竞态 · *已合并*
 
 ---
 
 ## 我怎么做东西
 
-几个习惯。测试跑通之后一定去真机上再看一遍，所以 Akari Pulse 的 README 里会写具体的手机型号、手表固件号和验证日期，Kill-Switch 的验证脚本没有 A/B 对照就不出结论。我偏爱 fail-closed 的设计，一个清楚的报错比一个悄悄降级还显示正常的系统好处理得多。能自己保管的数据（健康、创作记录、笔记）都放在自己的机器或 VPS 上，出了问题知道去哪找，也知道谁能看到。
+在决定再造一层之前，我会先去找已经存在的那一层。成熟项目只差一点就能满足需求时，我更愿意直接用、patch、fork，或者把修复送回上游，而不是从零重写一遍通用基础设施。
+
+测试通过只是前置条件，不是完成。我还是会回到真实机器和真实硬件上看，所以项目文档里经常会出现具体设备、环境检查、验证脚本和失败状态。我偏爱 fail-closed：一个明确、可诊断的错误，比一个悄悄降级却还显示正常的系统好处理得多。
+
+能自己保管的数据（健康、创作记录、笔记）在现实可行时尽量留在自己的机器或基础设施里。出了问题，我想知道该去哪找，也想知道谁能看见它。
 
 ---
 
@@ -71,12 +77,15 @@
   <img src="https://img.shields.io/badge/TypeScript-3186FF?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-5F86FF?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-2C3440?style=flat-square&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-897CD3?style=flat-square&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/React-52B6D9?style=flat-square&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-45C496?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tauri-897CD3?style=flat-square&logo=tauri&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tauri-9898DC?style=flat-square&logo=tauri&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android-5DCE9C?style=flat-square&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare-F0A000?style=flat-square&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-3C90FF?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/SQLite-74A7D8?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-2F3E66?style=flat-square&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/MCP-9898DC?style=flat-square" />
 </p>
 
@@ -84,7 +93,7 @@
 
 ## 联系
 
-📮 [yoruandakari@duck.com](mailto:yoruandakari@duck.com) · [1587761204@qq.com](mailto:1587761204@qq.com)  
+[yoruandakari@duck.com](mailto:yoruandakari@duck.com) · [1587761204@qq.com](mailto:1587761204@qq.com)  
 欢迎聊 AI 产品、Agent 工具、创作者工作流，或者这一页上的任何东西。
 
 ---
