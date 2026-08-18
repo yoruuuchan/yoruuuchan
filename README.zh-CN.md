@@ -55,7 +55,7 @@
 
 给自己真的在用的工具往上游送修复和功能。
 
-- **[Operit](https://github.com/AAswordman/Operit)** · Android AI Agent 应用 — 最近的改动横跨 Android / Compose 状态时序、模型供应商接入、Tool API 和崩溃处理：[ #974](https://github.com/AAswordman/Operit/pull/974)、[#990](https://github.com/AAswordman/Operit/pull/990)、[#991](https://github.com/AAswordman/Operit/pull/991)、[#993](https://github.com/AAswordman/Operit/pull/993) 已合并；[#987](https://github.com/AAswordman/Operit/pull/987) 和 [#992](https://github.com/AAswordman/Operit/pull/992) 审核中。
+- **[Operit](https://github.com/AAswordman/Operit)** · Android AI Agent 应用 — 最近的改动横跨 Android / Compose 状态时序、模型供应商接入、Tool API 和崩溃处理：[#974](https://github.com/AAswordman/Operit/pull/974)、[#990](https://github.com/AAswordman/Operit/pull/990)、[#991](https://github.com/AAswordman/Operit/pull/991)、[#993](https://github.com/AAswordman/Operit/pull/993) 已合并；[#987](https://github.com/AAswordman/Operit/pull/987) 和 [#992](https://github.com/AAswordman/Operit/pull/992) 审核中。
 - **[OpenCLI](https://github.com/jackwener/OpenCLI)** · 把网站和桌面应用变成 AI Agent 可用的 CLI — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) 适配当前 Codex Desktop 的 CDP target 布局和虚拟化对话 DOM · *审核中*
 - **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Kimi Slides 的 Agent Skill — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) 在 Windows 上自动拉起调试浏览器，解决 agent-browser 无法启动 Chrome 时的导出问题；[#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) 修复 Chrome 下载文件重命名竞态 · *已合并*
 
