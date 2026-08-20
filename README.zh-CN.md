@@ -42,20 +42,20 @@
 
 ### 视频、视觉与 Agent Skills
 
+**[YORU Motion Research](https://github.com/yoruuuchan/yoru-motion-research) → [Motion System](https://github.com/yoruuuchan/yoru-motion-system)** — 我不想再做一个「收了一堆动效参考，Agent 最后只能凭感觉模仿」的文件夹。于是人工审了 Locomotion 和 Video Shotcraft 两个来源共 636 个候选，把 keep / maybe / reject 的正负样本都留下，整理成 Agent 可读的审美偏好数据，再把筛出来的规律做成 18 个模板的 Remotion 系统。时间参数来自渲染参考逐帧测量，实现把结构、节奏、配色和皮肤拆开，同时注册 16:9 / 9:16，并把上游 License 边界写清楚。  
+`Remotion` · `TypeScript` · `Motion Design` · `Human Curation` · `Agent Workflow`
+
 **[Create Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — 我想不靠 3D 团队，也能把一句创意做成一条 4K 成片。这个 Skill 让 Agent 走完整条流水线：风格锁定、分镜、AI 参考图、Blender 场景、可断点恢复的渲染、Resolve 剪辑，最后帧数、编码、色彩标签和 SHA-256 逐项校验通过才算交付。  
 `Agent Skill` · `Blender` · `DaVinci Resolve` · `Video Pipeline`
 
 **[AI Application Showcase Video](https://github.com/yoruuuchan/ai-application-showcase-video)** — AI 项目的宣传材料通常是一堆零散的 PPT、技术描述、会议纪要和没核实过的说法。这个 Skill 强制 Agent 先建立事实基线，再写任何宣传内容：事实表、缺失信息清单、60 秒脚本、分镜、拍摄清单、后期 brief、平台文案；效率类说法没核实的，一律标「待确认」。  
 `Agent Skill` · `Content Workflow` · `Validation`
 
-**[Visual Skill Library](https://github.com/yoruuuchan/visual-skill-library)** — 我一直在收集视觉上真正有辨识度的 AI Skill、工作流和设计系统，而收藏夹是这类东西的坟墓。所以做成了索引库：每一项都记来源、License 和「跟原版差多少」。先收集再整理，先记录再测试，真正在任务里用过、验证过的才往前排。  
-`Visual AI` · `Editorial` · `Data Visualization` · `Design Systems`
-
 ## 开源贡献
 
 给自己真的在用的工具往上游送修复和功能。
 
-- **[Operit](https://github.com/AAswordman/Operit)** · Android AI Agent 应用 — 最近的改动横跨 Android / Compose 状态时序、模型供应商接入、Tool API 和崩溃处理：[#974](https://github.com/AAswordman/Operit/pull/974)、[#990](https://github.com/AAswordman/Operit/pull/990)、[#991](https://github.com/AAswordman/Operit/pull/991)、[#993](https://github.com/AAswordman/Operit/pull/993) 已合并；[#987](https://github.com/AAswordman/Operit/pull/987) 和 [#992](https://github.com/AAswordman/Operit/pull/992) 审核中。
+- **[Operit](https://github.com/AAswordman/Operit)** · Android AI Agent 应用 — 最近的改动横跨 Android / Compose 状态时序、模型供应商接入、Tool API、Markdown 手势和崩溃处理：[#974](https://github.com/AAswordman/Operit/pull/974)、[#987](https://github.com/AAswordman/Operit/pull/987)、[#990](https://github.com/AAswordman/Operit/pull/990)、[#991](https://github.com/AAswordman/Operit/pull/991)、[#992](https://github.com/AAswordman/Operit/pull/992)、[#993](https://github.com/AAswordman/Operit/pull/993)、[#996](https://github.com/AAswordman/Operit/pull/996)、[#997](https://github.com/AAswordman/Operit/pull/997) 已合并；[#1002](https://github.com/AAswordman/Operit/pull/1002) 审核中。
 - **[OpenCLI](https://github.com/jackwener/OpenCLI)** · 把网站和桌面应用变成 AI Agent 可用的 CLI — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) 适配当前 Codex Desktop 的 CDP target 布局和虚拟化对话 DOM · *审核中*
 - **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Kimi Slides 的 Agent Skill — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) 在 Windows 上自动拉起调试浏览器，解决 agent-browser 无法启动 Chrome 时的导出问题；[#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) 修复 Chrome 下载文件重命名竞态 · *已合并*
 
