@@ -42,20 +42,20 @@ Most of what is on this page was built with AI agents as collaborators. The part
 
 ### Video, visuals, and Agent Skills
 
+**[YORU Motion Research](https://github.com/yoruuuchan/yoru-motion-research) → [Motion System](https://github.com/yoruuuchan/yoru-motion-system)** — I did not want another folder of motion references that an agent could only vaguely imitate. I manually reviewed 636 candidates across Locomotion and Video Shotcraft, kept the full positive/negative decision history, turned it into agent-readable preference data, then built the surviving patterns into an 18-template Remotion system. Timing is measured from rendered references; the implementation separates structure, rhythm, palette and skin, registers both 16:9 and 9:16, and keeps upstream licensing boundaries explicit.  
+`Remotion` · `TypeScript` · `Motion Design` · `Human Curation` · `Agent Workflow`
+
 **[Create Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — I wanted to take a one-line idea to a finished 4K video without a 3D team. This Skill walks an agent through the whole pipeline (style lock, storyboard, AI reference images, Blender scenes, crash-recoverable rendering, Resolve editing) and will not call it delivered until frame count, encoding, color labels and SHA-256 all check out.  
 `Agent Skill` · `Blender` · `DaVinci Resolve` · `Video Pipeline`
 
 **[AI Application Showcase Video](https://github.com/yoruuuchan/ai-application-showcase-video)** — Publicity for AI projects usually starts as scattered slides, technical notes, meeting minutes and unverified claims. This Skill makes an agent establish a factual baseline before it writes a word of promotion: fact sheet, missing-information list, 60-second script, storyboard, shooting checklist, post brief, platform copy. Every unverified efficiency claim gets marked "pending confirmation."  
 `Agent Skill` · `Content Workflow` · `Validation`
 
-**[Visual Skill Library](https://github.com/yoruuuchan/visual-skill-library)** — I keep collecting AI skills, workflows and design systems with a real visual identity, and a bookmarks folder is where those go to die. So this is an index instead: every entry carries its source, its license and how faithful it is to the original. Collect first, sort later; whatever I have actually used and verified in a task floats to the top.  
-`Visual AI` · `Editorial` · `Data Visualization` · `Design Systems`
-
 ## Open-source contributions
 
 Fixes and features sent upstream to tools I actually use.
 
-- **[Operit](https://github.com/AAswordman/Operit)** · Android AI agent app — recent work spans Android/Compose state timing, model-provider integration, tool APIs and crash handling: [#974](https://github.com/AAswordman/Operit/pull/974), [#990](https://github.com/AAswordman/Operit/pull/990), [#991](https://github.com/AAswordman/Operit/pull/991), [#993](https://github.com/AAswordman/Operit/pull/993) merged; [#987](https://github.com/AAswordman/Operit/pull/987) and [#992](https://github.com/AAswordman/Operit/pull/992) open.
+- **[Operit](https://github.com/AAswordman/Operit)** · Android AI agent app — recent work spans Android/Compose state timing, model-provider integration, tool APIs, Markdown gestures and crash handling: [#974](https://github.com/AAswordman/Operit/pull/974), [#987](https://github.com/AAswordman/Operit/pull/987), [#990](https://github.com/AAswordman/Operit/pull/990), [#991](https://github.com/AAswordman/Operit/pull/991), [#992](https://github.com/AAswordman/Operit/pull/992), [#993](https://github.com/AAswordman/Operit/pull/993), [#996](https://github.com/AAswordman/Operit/pull/996), and [#997](https://github.com/AAswordman/Operit/pull/997) merged; [#1002](https://github.com/AAswordman/Operit/pull/1002) is open.
 - **[OpenCLI](https://github.com/jackwener/OpenCLI)** · turn websites and desktop apps into CLIs for AI agents — [#2281](https://github.com/jackwener/OpenCLI/pull/2281) adapts the Codex Desktop integration to its current CDP target layout and virtualized conversation DOM · *open*
 - **[open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill)** · Agent Skill for Kimi Slides — [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6) auto-starts a debug browser on Windows when agent-browser cannot launch one · [#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) fixes a Chrome download rename race · *merged*
 
