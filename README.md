@@ -4,8 +4,6 @@
 
 Started with cameras, drones, and DaVinci Resolve. Now I build AI products, agent infrastructure, and tools that have to survive contact with real devices and real workflows: phones, watches, Windows, creator pipelines. I care less about demos than whether the thing still works after deployment, user input, and edge cases.
 
-**Now:** growing 芦苇, a Markdown workbench for WeChat articles; keeping my own MCP endpoints, tunnels and Cloudflare Workers alive; writing down what breaks.
-
 ---
 
 ### selected work
