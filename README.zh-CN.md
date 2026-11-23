@@ -8,11 +8,11 @@
 
 ### 创作工具
 
+**[Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — 一个 Agent Skill，从一句创意一路推到校验过的 4K 成片：锁定风格的分镜、Blender 制作、能从断点恢复的渲染、只读进度监控、Resolve 剪辑——帧数、编码、校验和全过才算交付。
+
 **[芦苇](https://github.com/yoruuuchan/wechat-md-studio)** — 一份 Markdown 排出公众号文章、小红书卡片和长图，还能做公众号交互动效。AI 可以通过 MCP 改你正在写的那篇，但拿不走这份文档。227 套主题，3 套自己写的，224 套移植过来并保留作者与 License。[在线](https://wechat.yoru-and-akari.dev)。
 
 **[Yoru Design Systems](https://github.com/yoruuuchan/yoru-design-systems)** — 九套各自独立的设计系统，每一套都是可安装的 Agent Skill：设计指南、CSS tokens、组件和样张卡，覆盖网页、视频、幻灯片与长内容。
-
-**[Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — Agent Skill：一句话创意 → 4K H.265，走 Blender + Resolve，并检查帧数、编码和校验和。
 
 **[Yoru Studio](https://github.com/yoruuuchan/yoru-studio-oss)** — 给独立创作者用的自托管执行台：项目、分镜、外拍、复盘、备份，以及通过 MCP 接入的 AI agent。
 
@@ -34,10 +34,10 @@
 
 ### 上游贡献
 
-自己仓库以外的 7 个项目里，有 40 个已合并 PR。
+自己仓库以外的 7 个项目里，有 42 个已合并 PR。
 
 - **[Operit](https://github.com/AAswordman/Operit)** — Android AI agent · [21 个已合并 PR](https://github.com/AAswordman/Operit/pulls?q=is%3Apr+author%3Ayoruuuchan+is%3Amerged)：模型 / Provider 接入、Tool Call 与历史消息正确性、Compose / DSL 状态与时序、崩溃和 UX 修复
-- **[cli2api](https://github.com/caigee-cmd/cli2api)** — 面向编码 CLI 的多账号 API 代理 · [11 个已合并 PR](https://github.com/caigee-cmd/cli2api/pulls?q=is%3Apr+author%3Ayoruuuchan+is%3Amerged)：Provider 适配（含实验性的华为云 CodeArts 接入）、同 Provider 最早过期优先的账号调度、模型目录持久化、流式 tool call 中保留工具名
+- **[cli2api](https://github.com/caigee-cmd/cli2api)** — 面向编码 CLI 的多账号 API 代理 · [13 个已合并 PR](https://github.com/caigee-cmd/cli2api/pulls?q=is%3Apr+author%3Ayoruuuchan+is%3Amerged)：Provider 适配（含实验性的华为云 CodeArts 接入）、同 Provider 最早过期优先的账号调度、模型目录持久化（含 gpt-6.2 系列接入）、boot probe 失败后的 worker 恢复、流式 tool call 中保留工具名
 - **零散的几个** — gzh-design-skill（公众号剪贴板序列化）、open-kimi-ppt-skill（浏览器启动与下载竞态，[#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6)）、awesome-ai-companion、H440-FPV 机架
 
 ---

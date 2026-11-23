@@ -8,11 +8,11 @@ I make content, and I build the AI tools I make it with. Started with cameras, d
 
 ### creator tools
 
+**[Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — An agent skill that takes one idea all the way to a verified 4K video: style-locked storyboard, Blender production, renders that survive interruptions, a read-only progress dashboard, and Resolve for the cut — frame count, encoding, and checksum checked before anything is called done.
+
 **[芦苇 (Reed)](https://github.com/yoruuuchan/wechat-md-studio)** — One Markdown draft becomes a WeChat article, Xiaohongshu cards and a long image, plus interactive WeChat stories. An AI can edit the open article through MCP without owning the document. 227 themes, 3 written here and 224 ported with author and license kept. [Live](https://wechat.yoru-and-akari.dev).
 
 **[Yoru Design Systems](https://github.com/yoruuuchan/yoru-design-systems)** — Nine self-contained design systems, each one an installable Agent Skill: design guide, CSS tokens, components, and specimen cards for web, video, slides, and long-form content.
-
-**[Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — Agent Skill: one idea → 4K H.265 through Blender + Resolve, with delivery checks for frame count, encoding, and checksum.
 
 **[Yoru Studio](https://github.com/yoruuuchan/yoru-studio-oss)** — A self-hosted execution studio for solo creators: projects, storyboards, field work, retrospectives, backups, and MCP-connected AI agents.
 
@@ -34,10 +34,10 @@ I make content, and I build the AI tools I make it with. Started with cameras, d
 
 ### open source
 
-40 merged pull requests outside my own repositories, in 7 projects.
+42 merged pull requests outside my own repositories, in 7 projects.
 
 - **[Operit](https://github.com/AAswordman/Operit)** — Android AI agent · [21 merged PRs](https://github.com/AAswordman/Operit/pulls?q=is%3Apr+author%3Ayoruuuchan+is%3Amerged): model/provider integration, tool-call and history correctness, Compose/DSL state & timing, crash and UX fixes
-- **[cli2api](https://github.com/caigee-cmd/cli2api)** — multi-account API proxy for coding CLIs · [11 merged PRs](https://github.com/caigee-cmd/cli2api/pulls?q=is%3Apr+author%3Ayoruuuchan+is%3Amerged): provider adapters (including an experimental Huawei Cloud CodeArts one), earliest-expiry-first account scheduling, model catalog persistence, tool-name preservation on streamed tool calls
+- **[cli2api](https://github.com/caigee-cmd/cli2api)** — multi-account API proxy for coding CLIs · [13 merged PRs](https://github.com/caigee-cmd/cli2api/pulls?q=is%3Apr+author%3Ayoruuuchan+is%3Amerged): provider adapters (including an experimental Huawei Cloud CodeArts one), earliest-expiry-first account scheduling, model catalog persistence with the gpt-6.2 lineup, worker recovery after a failed boot probe, tool-name preservation on streamed tool calls
 - **Smaller ones** — gzh-design-skill (WeChat clipboard serialization), open-kimi-ppt-skill (browser launch and download races, [#5](https://github.com/Binaryify/open-kimi-ppt-skill/pull/5) [#6](https://github.com/Binaryify/open-kimi-ppt-skill/pull/6)), awesome-ai-companion, H440-FPV frame
 
 ---
