@@ -8,7 +8,7 @@
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/yoruuuchan/create-blender-story-video"><img src="assets/readme/blender-story-video.jpg" width="400" alt="Blender Story Video 的只读渲染监控页"></a><br><sub><b>Blender Story Video</b> — 从一句创意到校验过的成片</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/create-blender-story-video"><img src="assets/readme/blender-story-video.jpg" width="400" alt="Blender Story Video 池核演示片的空泳池真实渲染帧"></a><br><sub><b>Blender Story Video</b> — 从一句创意到校验过的成片</sub></td>
 <td width="50%"><a href="https://github.com/yoruuuchan/wechat-md-studio"><img src="assets/readme/reed.jpg" width="400" alt="芦苇把一份 Markdown 排成公众号文章、小红书卡片和长图"></a><br><sub><b>芦苇 Reed</b> — 一份 Markdown，三种成品</sub></td>
 </tr>
 <tr>

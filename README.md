@@ -8,7 +8,7 @@ I make content, and I build the AI tools I make it with. Started with cameras, d
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/yoruuuchan/create-blender-story-video"><img src="assets/readme/blender-story-video.jpg" width="400" alt="The Blender Story Video read-only render monitor"></a><br><sub><b>Blender Story Video</b> — one idea to a verified film</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/create-blender-story-video"><img src="assets/readme/blender-story-video.jpg" width="400" alt="A Poolcore still from the Blender Story Video demo: an empty tiled indoor pool"></a><br><sub><b>Blender Story Video</b> — one idea to a verified film</sub></td>
 <td width="50%"><a href="https://github.com/yoruuuchan/wechat-md-studio"><img src="assets/readme/reed.jpg" width="400" alt="Reed turning one Markdown draft into a WeChat article, Xiaohongshu cards and a long image"></a><br><sub><b>Reed 芦苇</b> — one Markdown, three finished formats</sub></td>
 </tr>
 <tr>
