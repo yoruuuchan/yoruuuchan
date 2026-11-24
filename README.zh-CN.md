@@ -4,6 +4,19 @@
 
 底子是拍片的——相机、穿越机、达芬奇。现在一边做内容，一边给自己做创作用的 AI 工具：排版、视频流水线、agent 拿来就能用的设计系统；还有托住它们的 Agent 基础设施，必须经得住真实设备、真实工作流折腾：手机、手表、Windows。比起 demo 漂不漂亮，我更在意它部署以后、遇到真实用户和边界情况以后还成不成立。
 
+### 精选作品
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/yoruuuchan/create-blender-story-video"><img src="assets/readme/blender-story-video.jpg" width="400" alt="Blender Story Video 的只读渲染监控页"></a><br><sub><b>Blender Story Video</b> — 从一句创意到校验过的 4K 成片</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/wechat-md-studio"><img src="assets/readme/reed.jpg" width="400" alt="芦苇把一份 Markdown 排成公众号文章、小红书卡片和长图"></a><br><sub><b>芦苇 Reed</b> — 一份 Markdown，三种成品</sub></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/yoruuuchan/yoru-design-systems"><img src="assets/readme/design-systems.jpg" width="400" alt="九套设计系统中的四套：Aozora、KIHON、KUNLUN 和 PAPER"></a><br><sub><b>Yoru Design Systems</b> — 九套 agent 拿来就能用的设计系统</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/is-ai-down"><img src="assets/readme/is-ai-down.jpg" width="400" alt="is-ai-down 状态看板"></a><br><sub><b>is-ai-down</b> — 是它挂了，还是只有你？</sub></td>
+</tr>
+</table>
+
 ---
 
 ### 创作工具

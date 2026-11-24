@@ -4,6 +4,19 @@
 
 I make content, and I build the AI tools I make it with. Started with cameras, drones, and DaVinci Resolve; now I build tools for creators — typesetting, video pipelines, design systems an agent can pick up and use — and the agent infrastructure underneath them, which has to survive contact with real devices and real workflows: phones, watches, Windows. I care less about demos than whether the thing still works after deployment, user input, and edge cases.
 
+### selected work
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/yoruuuchan/create-blender-story-video"><img src="assets/readme/blender-story-video.jpg" width="400" alt="The Blender Story Video read-only render monitor"></a><br><sub><b>Blender Story Video</b> — one idea to a verified 4K film</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/wechat-md-studio"><img src="assets/readme/reed.jpg" width="400" alt="Reed turning one Markdown draft into a WeChat article, Xiaohongshu cards and a long image"></a><br><sub><b>Reed 芦苇</b> — one Markdown, three finished formats</sub></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/yoruuuchan/yoru-design-systems"><img src="assets/readme/design-systems.jpg" width="400" alt="Four of the nine design systems: Aozora, KIHON, KUNLUN and PAPER"></a><br><sub><b>Yoru Design Systems</b> — nine systems an agent can pick up and use</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/is-ai-down"><img src="assets/readme/is-ai-down.jpg" width="400" alt="The is-ai-down status board"></a><br><sub><b>is-ai-down</b> — is it down, or is it just you?</sub></td>
+</tr>
+</table>
+
 ---
 
 ### creator tools
