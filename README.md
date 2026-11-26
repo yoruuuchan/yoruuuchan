@@ -13,7 +13,7 @@ I make content, and I build the AI tools I make it with. Started with cameras, d
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/yoruuuchan/yoru-design-systems"><img src="assets/readme/design-systems.jpg" width="400" alt="Four of the nine design systems: Aozora, KIHON, KUNLUN and PAPER"></a><br><sub><b>Yoru Design Systems</b> — nine systems an agent can pick up and use</sub></td>
-<td width="50%"><a href="https://github.com/yoruuuchan/davinci-ograf-templates"><img src="assets/readme/davinci-ograf.gif" width="400" alt="Four OGraf cards looping in a blue palette: a product card, a live chart, a step sequence and a glowing title card"></a><br><sub><b>DaVinci OGraf Templates</b> — 118 cards you edit inside Resolve</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/davinci-ograf-templates"><img src="assets/readme/davinci-ograf.gif" width="400" alt="Four OGraf templates looping in their native blue looks: a live data dashboard, a dot-matrix wave, a HUD reticle and a title card"></a><br><sub><b>DaVinci OGraf Templates</b> — 118 cards you edit inside Resolve</sub></td>
 </tr>
 </table>
 
