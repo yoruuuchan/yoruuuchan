@@ -13,7 +13,7 @@
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/yoruuuchan/yoru-design-systems"><img src="assets/readme/design-systems.jpg" width="400" alt="九套设计系统中的四套：Aozora、KIHON、KUNLUN 和 PAPER"></a><br><sub><b>Yoru Design Systems</b> — 九套 agent 拿来就能用的设计系统</sub></td>
-<td width="50%"><a href="https://github.com/yoruuuchan/davinci-ograf-templates"><img src="assets/readme/davinci-ograf.gif" width="400" alt="四张 OGraf 模板卡的原生蓝色循环动画：实时数据大屏、点阵波纹、取景框 HUD 和标题大字"></a><br><sub><b>达芬奇 OGraf 模板库</b> — 118 张动态图文卡，在检查器里改字改色</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/davinci-ograf-templates"><img src="assets/readme/davinci-ograf.gif" width="400" alt="四张 OGraf 模板卡各自原生配色的循环动画：蓝色数据大屏、粉紫霓虹标题、荧光绿镜头克隆和黑金记分牌"></a><br><sub><b>达芬奇 OGraf 模板库</b> — 118 张动态图文卡，在检查器里改字改色</sub></td>
 </tr>
 </table>
 
