@@ -13,7 +13,7 @@
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/yoruuuchan/yoru-design-systems"><img src="assets/readme/design-systems.jpg" width="400" alt="九套设计系统中的四套：Aozora、KIHON、KUNLUN 和 PAPER"></a><br><sub><b>Yoru Design Systems</b> — 九套 agent 拿来就能用的设计系统</sub></td>
-<td width="50%"><a href="https://github.com/yoruuuchan/is-ai-down"><img src="assets/readme/is-ai-down.jpg" width="400" alt="is-ai-down 状态看板"></a><br><sub><b>is-ai-down</b> — 是它挂了，还是只有你？</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/davinci-ograf-templates"><img src="assets/readme/davinci-ograf.jpg" width="400" alt="达芬奇 OGraf 模板库里的四张卡：纸面标题、桌上发牌、霓虹步骤和 3D 环形画廊"></a><br><sub><b>达芬奇 OGraf 模板库</b> — 118 张动态图文卡，在检查器里改字改色</sub></td>
 </tr>
 </table>
 
@@ -22,6 +22,8 @@
 ### 创作工具
 
 **[Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — 一个 Agent Skill，从一句创意一路推到校验过的 4K 成片：锁定风格的分镜、Blender 制作、能从断点恢复的渲染、只读进度监控、Resolve 剪辑——帧数、编码、校验和全过才算交付。
+
+**[达芬奇 OGraf 模板库](https://github.com/yoruuuchan/davinci-ograf-templates)** — 118 张给 DaVinci Resolve 21 的动态图文卡：标题、文字动效、图表、界面标注、转场。媒体池导入后在检查器里改字、改色、换字体，每张卡自带字体文件。[图鉴](https://github.com/yoruuuchan/davinci-ograf-templates/blob/main/CATALOG.md)。
 
 **[芦苇](https://github.com/yoruuuchan/wechat-md-studio)** — 一份 Markdown 排出公众号文章、小红书卡片和长图，还能做公众号交互动效。AI 可以通过 MCP 改你正在写的那篇，但拿不走这份文档。227 套主题，3 套自己写的，224 套移植过来并保留作者与 License。[在线](https://wechat.yoru-and-akari.dev)。
 

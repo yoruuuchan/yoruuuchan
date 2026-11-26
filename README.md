@@ -13,7 +13,7 @@ I make content, and I build the AI tools I make it with. Started with cameras, d
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/yoruuuchan/yoru-design-systems"><img src="assets/readme/design-systems.jpg" width="400" alt="Four of the nine design systems: Aozora, KIHON, KUNLUN and PAPER"></a><br><sub><b>Yoru Design Systems</b> — nine systems an agent can pick up and use</sub></td>
-<td width="50%"><a href="https://github.com/yoruuuchan/is-ai-down"><img src="assets/readme/is-ai-down.jpg" width="400" alt="The is-ai-down status board"></a><br><sub><b>is-ai-down</b> — is it down, or is it just you?</sub></td>
+<td width="50%"><a href="https://github.com/yoruuuchan/davinci-ograf-templates"><img src="assets/readme/davinci-ograf.jpg" width="400" alt="Four OGraf cards from the library: a paper title card, cards dealt onto a table, a neon step sequence and a 3D card carousel"></a><br><sub><b>DaVinci OGraf Templates</b> — 118 cards you edit inside Resolve</sub></td>
 </tr>
 </table>
 
@@ -22,6 +22,8 @@ I make content, and I build the AI tools I make it with. Started with cameras, d
 ### creator tools
 
 **[Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video)** — An agent skill that takes one idea all the way to a verified 4K video: style-locked storyboard, Blender production, renders that survive interruptions, a read-only progress dashboard, and Resolve for the cut — frame count, encoding, and checksum checked before anything is called done.
+
+**[DaVinci OGraf Templates](https://github.com/yoruuuchan/davinci-ograf-templates)** — 118 OGraf motion-graphics cards for DaVinci Resolve 21: titles, kinetic type, charts, UI callouts and transitions. Import a card in the media pool, then edit text, colour, font preset and size in the Inspector; every card carries its own font files. [Card catalog](https://github.com/yoruuuchan/davinci-ograf-templates/blob/main/CATALOG.md).
 
 **[芦苇 (Reed)](https://github.com/yoruuuchan/wechat-md-studio)** — One Markdown draft becomes a WeChat article, Xiaohongshu cards and a long image, plus interactive WeChat stories. An AI can edit the open article through MCP without owning the document. 227 themes, 3 written here and 224 ported with author and license kept. [Live](https://wechat.yoru-and-akari.dev).
 
